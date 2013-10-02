@@ -107,10 +107,38 @@ html, body
     font-size: 1.1em;
     color: #51473d;
     margin-top: 30px;
+    margin-bottom: -12px;
+    line-height: 200%;
 }
 
 #subcontent p
 {
     font-size: 0.8em;
     line-height: 200%;
+}
+
+
+/* Formatering av listor */
+
+#subcontent ul
+{
+    list-style: none;
+    padding: 0px;
+}
+
+
+/* Formatering av meny och länkar */
+
+a
+{
+    color: #51473d;
+}
+
+
+/* Formateringar för andra saker, såsom bilder */
+
+#maincontent img
+{
+    float: left;
+    padding: 5px;
 }
