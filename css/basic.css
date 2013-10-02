@@ -72,6 +72,7 @@ html, body
     border-color: #cecab9;
     float: left;
     padding-right: 10px;
+    word-spacing: 3px;
 }
 
 #subcontent
@@ -160,7 +161,7 @@ html, body
     color: #eae7d2;
     background-color: #797066;
     padding: 9px 20px 8px 20px;
-    margin-right: -3px; 
+    margin-left: 1px; 
 }
 
 #menu ul li a:hover
