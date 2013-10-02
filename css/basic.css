@@ -5,8 +5,8 @@
 
 Bakgrundsfärg: #fcfaf4
 Container: #eae7d2
-Text och meny (Utan hover): #797066
-Header: #51473d
+Text och meny (Utan hover) + h1 main: #797066
+Header + h1-sub: #51473d
 Kantfärg: #cecab9
 
 */
@@ -19,8 +19,8 @@ html, body
     margin: 0px;
     background-color: #fcfaf4;
     font-family: Verdana, Times New Roman;
-    font-size: 10pt;
-    line-height: 140%;
+    font-size: 0.9em;
+    line-height: 150%;
     color: #797066;
 }
 
@@ -47,7 +47,7 @@ html, body
     background-position: 0px 20px; 
     color: #eae7d2;
     font-style: italic;
-    font-size: 7.5pt;
+    font-size: 0.75em;
     text-align: right;
     padding: 2px;
 }
@@ -61,7 +61,8 @@ html, body
 #maincontent
 {
     width: 330px;
-    border-right: 1px dotted;
+    border-right: 1px dashed;
+    border-color: #cecab9;
     float: left;
 }
 
@@ -76,5 +77,40 @@ html, body
     clear: both;
     width: 580px;    
     font-style: italic;
-    font-size: 7pt;
+    font-size: 0.75em;
+}
+
+
+/* Formatering av text, såsom rubriker med mera */
+
+#maincontent h1
+{
+    font-family: Times New Roman, Verdana;
+    font-weight: lighter;
+    font-size: 2.5em;
+    color: #797066;
+}
+
+#subcontent h1
+{
+    font-family: Times New Roman, Verdana;
+    font-weight: lighter;
+    font-size: 1.3em;
+    color: #51473d;
+    margin-bottom: 20px;
+}
+
+#subcontent h2
+{
+    font-family: Times New Roman, Verdana;
+    font-weight: lighter;
+    font-size: 1.1em;
+    color: #51473d;
+    margin-top: 30px;
+}
+
+#subcontent p
+{
+    font-size: 0.8em;
+    line-height: 200%;
 }
