@@ -40,7 +40,7 @@ html, body
 #topbar
 {
     width: 596px;
-    height: 250px;
+    height: 220px;
     background-color: #51473d;
     background-image: url(pics/coffey.jpg);
     background-repeat: no-repeat;
@@ -50,6 +50,13 @@ html, body
     font-size: 9px;
     text-align: right;
     padding: 2px;
+}
+
+#menu
+{
+    width: 600px;
+    height: 32px;
+    background-color: #51473d;
 }
 
 #content
@@ -129,6 +136,43 @@ html, body
 
 
 /* Formatering av meny och länkar */
+
+#menu ul
+{
+    margin: 0px;
+    padding: 8px;
+    list-style: none;
+}
+
+#menu li
+{
+    float: left;
+}
+
+#menu li:first-letter
+{
+    text-transform: uppercase;
+}
+
+#menu ul li a
+{
+    text-decoration: none;
+    color: #eae7d2;
+    background-color: #797066;
+    padding: 9px 20px 8px 20px;
+    margin-right: -3px; 
+}
+
+#menu ul li a:hover
+{
+    background-color: #9c9084;
+}
+
+#menu .active a
+{
+    background-color: #eae7d2;
+    color: #797066;
+}
 
 a
 {
